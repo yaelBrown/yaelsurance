@@ -1,0 +1,13 @@
+#jumbotron {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#jumbotron-left, #jumbotron-right {
+    margin: auto;
+}
+
+#jumbotron-left {}
+#jumbotron-right {}
+  
