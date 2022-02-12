@@ -1,0 +1,88 @@
+#loginWrapper {
+    height: 20rem;
+    width: 70%;
+    margin: auto;
+    min-height: calc(100vh - 330px);
+    display: flex; 
+}
+
+#loginSection {
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #e8e8e8;
+    padding-bottom: 1.5em;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.loginSectionRows {
+    width: 80%;
+    height: 5em;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.loginSectionRowsLeft,
+.loginSectionRowsRight {
+    margin: auto;
+}
+
+.loginSectionRowsLeft {
+    text-align: left;
+}
+
+.loginSectionRowsRight {
+    display: inherit;
+    align-self: center;
+}
+
+#loginTitle {
+    text-align: center;
+}
+
+#loginSectionButtonRow {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.loginInput {
+    height: 2.5em;
+    border: 0;
+    border-radius: 3px;
+}
+
+.loginButton {
+    height: 3em;
+    width: 10em;
+    border: 0;
+    border-radius: 2px;
+    align-self: center;
+    cursor: pointer;
+}
+
+#loginButtonRegister {
+    background-color: #fff;
+    border: 2px solid #2F2F41;
+}
+
+#loginButtonLogin {
+    background-color: #2F2F41;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.loginSectionErrorRow {
+    width: 80%;
+    height: 22px;
+    margin: auto;
+    text-align: center;
+}
+
+#loginErrorText {
+    color: red
+}
+
+#loginLoadingText {
+    color: #2F2F41;
+}

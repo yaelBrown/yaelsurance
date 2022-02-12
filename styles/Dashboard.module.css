@@ -1,0 +1,10 @@
+#dashboardWrapper {
+    width: 70%;
+    margin: auto;
+    min-height: calc(100vh - 330px);
+    display: flex; 
+}
+
+#dashboardSection {
+    
+}
