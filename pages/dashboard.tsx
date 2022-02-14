@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
-import styles from '../styles/Dashboard.module.css'
+import styles from "../styles/Dashboard.module.css";
 
 export default function dashboard() {
-  const [userContext, setUserContext] = useState(false)
- 
+  const [userContext, setUserContext] = useState(false);
+
   useEffect(() => {
-    const user = JSON.parse(localStorage.getItem("yaelsurance"))
-    if (user === null) return window.location.href = "/login" 
-    setUserContext(user)
+    const user = JSON.parse(localStorage.getItem("yaelsurance"));
+    if (user === null) return (window.location.href = "/login");
+    setUserContext(user);
   }, []);
 
   return (

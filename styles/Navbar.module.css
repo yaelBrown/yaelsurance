@@ -1,45 +1,47 @@
 #nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    z-index: 100;
-    top: 0;
-    height: 50px;
-    background-color: #2F2F41;
-    color: #ffffff;
-    width: 100%;
-    padding: 5px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 100;
+  top: 0;
+  height: 50px;
+  background-color: #2f2f41;
+  color: #ffffff;
+  width: 100%;
+  padding: 5px 10px 10px 10px;
 }
 
-#navLeft, #navMiddle, #navRight {
-    padding-top: 7px;
+#navLeft,
+#navMiddle,
+#navRight {
+  padding-top: 7px;
 }
 
 #navLeft > * {
-    margin: 0;
+  margin: 0;
 }
 
 #navLeft h3,
 #navRight h3 {
-    margin: inherit;
+  margin: inherit;
 }
 
-#navLeft h3:hover, 
+#navLeft h3:hover,
 #navRight h3:hover,
 #navRightIcon:hover {
-    color: #F30056;
+  color: #f30056;
 }
 
 #navRight {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #navRight > * {
-    margin: 0;
+  margin: 0;
 }
 
 #navRightIcon {
-    margin-left: 1em;
+  margin-left: 1em;
 }

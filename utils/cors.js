@@ -1,5 +1,5 @@
-import Cors from 'cors'
+import Cors from "cors";
 
 const cors = Cors({
-    methods: ['GET', 'HEAD'],
-})
+  methods: ["GET", "HEAD"],
+});

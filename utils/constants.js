@@ -1,1 +1,1 @@
-export const HEADERS = {"Access-Control-Allow-Origin": "*"}
+export const HEADERS = { "Access-Control-Allow-Origin": "*" };

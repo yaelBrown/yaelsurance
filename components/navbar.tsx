@@ -1,9 +1,9 @@
-import React from 'react';
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
-import { BsFillPersonFill } from 'react-icons/bs'
+import { BsFillPersonFill } from "react-icons/bs";
 
-import styles from '../styles/Navbar.module.css'
+import styles from "../styles/Navbar.module.css";
 
 export default function navbar() {
   return (
@@ -24,10 +24,7 @@ export default function navbar() {
             <h3>Login</h3>
           </a>
         </Link>
-        <BsFillPersonFill 
-          id={styles.navRightIcon}
-          size="1.5em"
-        />
+        <BsFillPersonFill id={styles.navRightIcon} size="1.5em" />
       </section>
     </nav>
   );

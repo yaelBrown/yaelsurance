@@ -1,13 +1,13 @@
 #error {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    padding-top: 10em;
-    width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding-top: 10em;
+  width: fit-content;
 }
 
 #errorText {
-    text-align: center;
-    color: #F30056;
+  text-align: center;
+  color: #f30056;
 }

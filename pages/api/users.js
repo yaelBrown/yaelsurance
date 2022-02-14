@@ -1,9 +1,12 @@
-import nc from "next-connect"
-import { getAllUsers, registerUser } from "../../controllers/users/usersController"
+import nc from "next-connect";
+import {
+  getAllUsers,
+  registerUser,
+} from "../../controllers/users/usersController";
 
-const handler = nc()
+const handler = nc();
 
-handler.get(getAllUsers)
-handler.post(registerUser)
+handler.get(getAllUsers);
+handler.post(registerUser);
 
-export default handler
+export default handler;
