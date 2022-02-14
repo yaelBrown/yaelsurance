@@ -1,8 +1,9 @@
 import nc from "next-connect"
-import { getAllUsers } from "../../controllers/users/users"
+import { getAllUsers, registerUser } from "../../controllers/users/usersController"
 
 const handler = nc()
 
 handler.get(getAllUsers)
+handler.post(registerUser)
 
 export default handler

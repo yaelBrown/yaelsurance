@@ -1,0 +1,95 @@
+#registerWrapper {
+    height: 20rem;
+    width: 70%;
+    margin: auto;
+    min-height: calc(100vh - 330px);
+    display: flex; 
+}
+
+#registerSection {
+    width: 50%;
+    min-width: 415px;
+    max-width: 565px;
+    margin: 2em auto auto auto;
+    border-radius: 5px;
+    background-color: #e8e8e8;
+    padding-bottom: 1.5em;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.registerSectionRow {
+    width: 80%;
+    height: 5em;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.registerSectionRowLeft,
+.registerSectionRowRight {
+    margin: auto;
+}
+
+.registerSectionRowLeft{
+    text-align: left;
+    width: 100px;
+}
+
+.registerSectionRowRight{
+    display: inherit;
+    align-self: center;
+}
+
+#registerButtonRow {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#registerTitle {
+    text-align: center;
+}
+
+.registerInput {
+    height: 2.5em;
+    border: 0;
+    border-radius: 3px;
+}
+
+.registerButton {
+    height: 3em;
+    width: 10em;
+    border: 0;
+    border-radius: 2px;
+    align-self: center;
+    cursor: pointer;
+}
+
+#registerButtonLogin {
+    background-color: #fff;
+    border: 2px solid #2F2F41;
+}
+
+#registerButtonRegister {
+    background-color: #2F2F41;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.registerSectionErrorRow {
+    width: 80%;
+    height: 22px;
+    margin: auto;
+    text-align: center;
+}
+
+#registerErrorText {
+    color: red;
+}
+
+#registerLoadingText {
+    color: #2F2F41;
+}
+
+#registerSuccessText {
+    color: green;
+}

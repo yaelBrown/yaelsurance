@@ -8,6 +8,7 @@ import IndexImg2 from '../assets/img/homeImg2.png'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
+  console.log("v" + process.env.NEXT_PUBLIC_BUILD)
   return (
     <div className={styles.container}>
       <section id={styles.jumbotron}>
@@ -37,5 +38,3 @@ const Home: NextPage = () => {
 }
 
 export default Home
-
-
